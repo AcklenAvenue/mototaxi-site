@@ -65,7 +65,7 @@ a {
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: #fff;
     background-color: #BF3F3F;
-    border-color: #BF3F3F; 
+    border-color: #BF3F3F;
 }
 
 .panel-default{
@@ -80,4 +80,14 @@ a {
    color: #BF3F3F;
    background-color: #450003;
 
+}
+#features {
+  margin-top: 30px;
+}
+#features .container .panel-default {
+  width: 1000px;
+  background-color: white;
+  text-align: center;
+  color: gray;
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
