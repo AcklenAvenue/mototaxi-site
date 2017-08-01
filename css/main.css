@@ -1,0 +1,120 @@
+html,
+
+body {
+  height: 100%;
+  width: 100%;
+  padding-top:70px;
+}
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+a {
+    color: #BF3F3F;
+    text-decoration: none;
+  }
+
+.navbar-default{
+  background-color: #5C0002;
+  height: 60px;
+}
+.navbar-default img{
+  width: 100px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #BF3F3F;
+}
+
+.container-fluid {
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.lead{
+  margin: 0 auto;
+  width: 400px;
+}
+
+.btn-xl {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px 30px;
+}
+
+.btn {
+    border: none;
+    border-radius: 300px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #5C0002;
+    border-color: #5C0002;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #BF3F3F;
+    border-color: #BF3F3F;
+}
+
+.panel-default{
+    background-color: black;
+    text-align: left;
+    color:white;
+    margin: auto;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+   color: #BF3F3F;
+   background-color: #450003;
+
+}
+#features {
+  margin-top: 60px;
+}
+#features .container .panel-default {
+  background-color: white;
+  text-align: center;
+  color: gray;
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+#helloworld{
+  margin-top: 120px;
+  text-align: center;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#helloworld .panel-default{
+  background-color: #200809;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+}
+
+#helloworld h3 {
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  font-weight: normal;
+  color: #200809;
+}
+#helloworld .white-p{
+  color: white;
+}
