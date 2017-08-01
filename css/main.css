@@ -69,11 +69,9 @@ a {
 }
 
 .panel-default{
-    width: 700px;
     background-color: black;
     text-align: left;
     color:white;
-    margin-top: 20px;
     margin: auto;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -82,12 +80,41 @@ a {
 
 }
 #features {
-  margin-top: 30px;
+  margin-top: 60px;
 }
 #features .container .panel-default {
-  width: 1000px;
   background-color: white;
   text-align: center;
   color: gray;
   box-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+#helloworld{
+  margin-top: 120px;
+  text-align: center;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#helloworld .panel-default{
+  background-color: #200809;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+}
+
+#helloworld h3 {
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  font-weight: normal;
+  color: #200809;
+}
+#helloworld .white-p{
+  color: white;
 }
